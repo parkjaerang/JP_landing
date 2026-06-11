@@ -56,11 +56,11 @@ img {
     height: 100%;
 }
 
-.gallery{
+main {
     display: flex;
     flex-direction: column;
 }
 
-.gallery a{
+main a{
     font-size: 36px;
 }
