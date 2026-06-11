@@ -60,3 +60,7 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+.box a{
+    font-size: 36px;
+}
