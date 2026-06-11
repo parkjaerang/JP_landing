@@ -17,7 +17,7 @@ const LINE_URL = 'https://line.me/R/ti/p/@564izgje?ts=03051300&oat_content=url';
 document.querySelectorAll('.line_btn').forEach((btn) => {
     btn.addEventListener('click', (e) => {
         e.preventDefault();
-        lightboxImg.src = './img/lineQR.png';
+        lightboxImg.src = './classone_LP_img/lineQR.png';
         lightboxImg.alt = 'LINE QRコード';
         lightbox.classList.add('open', 'qr-mode');
         document.body.style.overflow = 'hidden';
