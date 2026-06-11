@@ -17,7 +17,7 @@ const LINE_URL = 'https://line.me/R/ti/p/@482nhzmj?ts=04221619&oat_content=url';
 document.querySelectorAll('.line_btn').forEach((btn) => {
     btn.addEventListener('click', (e) => {
         e.preventDefault();
-        lightboxImg.src = './img/lineQR.png';
+        lightboxImg.src = './wooa_LP_img/lineQR.png';
         lightboxImg.alt = 'LINE QRコード';
         lightbox.classList.add('open', 'qr-mode');
         document.body.style.overflow = 'hidden';

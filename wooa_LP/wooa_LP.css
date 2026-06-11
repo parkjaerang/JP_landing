@@ -24,7 +24,7 @@ img{
 
 /* ===== HERO (배경 이미지형) ===== */
 #hero_intro{
-    background-image: url(./img/hero_img.png);
+    background-image: url(./wooa_LP_img/hero_img.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
