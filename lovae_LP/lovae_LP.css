@@ -308,9 +308,6 @@ img{
 }
 
 /* ===== 브랜드 개별 오버라이드 ===== */
-.section_title{
-    color: var(--white);
-}
 
 .info_note{
     margin-bottom: 12px;
