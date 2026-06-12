@@ -5,7 +5,7 @@
 :root {
     --white: #fcf8f3;
     --black : #1a1a1a;
-    --ink1: #FFFBF7;
+    --ink1: #F8EFE9;
     --font1: #5B524C;
     --font2: #3B383C;
     --line :#2D7A4F;
@@ -82,7 +82,7 @@ img{
     position: relative;
     z-index: 1;
     width: 100%;
-    color: var(--ink1);
+    color: var(--white);
 }
 
 /* ===== SIGNATURE 카드 (타이틀 하단형) ===== */
