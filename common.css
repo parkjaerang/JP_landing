@@ -402,7 +402,7 @@ header {
     cursor: pointer;
     font-family: 'SST', 'Noto Sans JP', sans-serif;
     font-weight: 500;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 1.25;
     transition: background-color .15s ease, color .15s ease;
 }
@@ -447,7 +447,7 @@ header {
     text-align: center;
     font-family: 'SST', 'Noto Sans JP', sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 10px;
     transition: background-color .15s ease, color .15s ease, border-color .15s ease;
 }
 
