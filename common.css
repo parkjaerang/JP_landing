@@ -207,6 +207,9 @@ header {
     font-size: 20px;
 }
 
+.section_title:not(:first-of-type){
+    color: var(--ink1);
+}
 /* ===== EVENT 카드 그리드 ===== */
 .event_grid {
     display: grid;
@@ -855,7 +858,6 @@ header {
 /* ===== FAQ / 자주 묻는 질문 ===== */
 #faq {
     margin-top: 50px;
-    padding: 0 var(--padding);
 }
 
 .faq_head {
@@ -867,6 +869,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 14px;
+    padding: 0 var(--padding);
 }
 
 .faq_item {
