@@ -302,6 +302,10 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+    .card-name {
+    font-size: 12px;
+}
 }
 
 @media (max-width: 560px) {
