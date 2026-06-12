@@ -167,7 +167,7 @@ img{
     padding: 15px var(--padding);
     background-color: var(--white);
     color: var(--ink1);
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 1.4;
     cursor: pointer;
@@ -339,26 +339,17 @@ img{
 }
 
 .info_note{
-    margin-top: 12px;
-    font-size: 13px;
     color: var(--hover);
 }
 
 .footer_name{
-    font-size: 15px;
-    font-weight: 700;
     color: var(--font2);
-    margin-bottom: 12px;
 }
 
 .footer_line{
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.9;
     color: var(--hover);
 }
 
 .footer_sep{
-    margin: 0 8px;
     color: var(--font2);
 }
