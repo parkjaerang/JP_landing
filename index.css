@@ -241,7 +241,7 @@ body {
 }
 
 .card-name-sub {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
     color: var(--ink-sub);
     margin-left: 4px;
@@ -307,9 +307,5 @@ body {
 @media (max-width: 560px) {
     .site-header {
         padding: 48px 20px 28px;
-    }
-    .gallery {
-        grid-template-columns: 1fr;
-        padding: 16px 20px 48px;
     }
 }
