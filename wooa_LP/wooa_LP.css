@@ -123,6 +123,65 @@ img{
     aspect-ratio: 9 / 16;
 }
 
+/* shorts facade: 썸네일만 먼저 표시, 탭하면 iframe 로드 */
+.short_item{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    aspect-ratio: 9 / 16;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #000;
+}
+
+.short_thumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.short_play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.55);
+    transition: background 0.2s ease;
+    pointer-events: none;
+}
+
+.short_play::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 11px 0 11px 19px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.short_item:hover .short_play{
+    background: rgba(220, 20, 60, 0.85);
+}
+
+.short_item iframe{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 #footer{
     margin-top: 0;
 }

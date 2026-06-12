@@ -161,6 +161,21 @@ if (sigTrack) {
     start();
 }
 
+/* ===== shorts: 탭 시 iframe 로드(facade) ===== */
+document.querySelectorAll('.short_item').forEach((item) => {
+    item.addEventListener('click', () => {
+        if (item.querySelector('iframe')) return;
+        const id = item.dataset.id;
+        const iframe = document.createElement('iframe');
+        iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1&playsinline=1&rel=0`;
+        iframe.title = 'YouTube video player';
+        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+        iframe.allowFullscreen = true;
+        item.appendChild(iframe);
+    });
+});
+
 document.querySelectorAll('.faq_item').forEach((item) => {
     const btn = item.querySelector('.faq_q');
     const answer = item.querySelector('.faq_a');
