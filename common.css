@@ -1042,13 +1042,15 @@ header {
 }
 
 .info_row dt {
-    flex: 0 0 120px;
+    flex: 0 0 100px;
     font-weight: 700;
+    font-size: 13px;
 }
 
 .info_row dd {
     flex: 1;
     color: var(--font1);
+    font-size: 11px;
 }
 
 .info_row dd span {
